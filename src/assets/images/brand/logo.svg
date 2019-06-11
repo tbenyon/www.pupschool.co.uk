@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="584px" height="335px" viewBox="0 0 584 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Perfect Pups</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-204.000000, -118.000000)">
+            <g id="Main-Logo" transform="translate(212.000000, 126.000000)">
+                <ellipse id="Oval" stroke="#000000" stroke-width="16" cx="284" cy="159.5" rx="284" ry="159.5"></ellipse>
+                <g id="Text" transform="translate(110.000000, 26.000000)" fill="#000000">
+                    <g id="P">
+                        <rect id="Rectangle" x="0" y="42.5700487" width="28" height="127" rx="8"></rect>
+                        <g id="Paw" transform="translate(19.275624, 0.000000)" stroke-width="1">
+                            <g id="New-Paw" transform="translate(63.000000, 65.000000) rotate(75.000000) translate(-63.000000, -65.000000) translate(10.000000, 14.000000)">
+                                <path d="M42.3275543,93.311875 C46.7189252,93.311875 71.4016416,109.96953 76.0944803,95.8473828 C80.1959799,84.5568792 64.2683313,51.5278437 50.1022293,51.5278437 C35.9361273,51.5278437 16.7499928,73.4035955 16.7499928,84.5568792 C19.7400173,99.5081858 34.6603457,93.311875 42.3275543,93.311875 Z" id="Oval"></path>
+                                <ellipse id="Oval" transform="translate(16.130435, 48.062590) rotate(-13.000000) translate(-16.130435, -48.062590) " cx="16.1304348" cy="48.0625899" rx="12.0980219" ry="17.2878559"></ellipse>
+                                <ellipse id="Oval" transform="translate(86.788124, 54.026191) rotate(30.000000) translate(-86.788124, -54.026191) " cx="86.7881243" cy="54.0261913" rx="12.0987935" ry="17.2867539"></ellipse>
+                                <ellipse id="Oval" transform="translate(39.573871, 20.457627) rotate(-5.000000) translate(-39.573871, -20.457627) " cx="39.5738706" cy="20.4576271" rx="12.0978555" ry="19.3050379"></ellipse>
+                                <ellipse id="Oval" transform="translate(69.584856, 24.560862) rotate(18.000000) translate(-69.584856, -24.560862) " cx="69.5848558" cy="24.5608624" rx="12.0981955" ry="19.3044954"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="erfect" font-family="FredokaOne-Regular, Fredoka One" font-size="105" font-weight="normal">
+                        <tspan x="33.5025" y="169.570049">erfect </tspan>
+                    </text>
+                    <text id="Pups" font-family="FredokaOne-Regular, Fredoka One" font-size="80" font-weight="normal">
+                        <tspan x="112.14" y="236.570049">Pups</tspan>
+                    </text>
+                </g>
+                <g id="P" transform="translate(110.000000, 26.000000)" fill="#000000">
+                    <rect id="Rectangle" x="0" y="42.5700487" width="28" height="127" rx="8"></rect>
+                    <g id="Paw" transform="translate(19.275624, 0.000000)" stroke-width="1">
+                        <g id="New-Paw" transform="translate(63.000000, 65.000000) rotate(75.000000) translate(-63.000000, -65.000000) translate(10.000000, 14.000000)">
+                            <path d="M42.3275543,93.311875 C46.7189252,93.311875 71.4016416,109.96953 76.0944803,95.8473828 C80.1959799,84.5568792 64.2683313,51.5278437 50.1022293,51.5278437 C35.9361273,51.5278437 16.7499928,73.4035955 16.7499928,84.5568792 C19.7400173,99.5081858 34.6603457,93.311875 42.3275543,93.311875 Z" id="Oval"></path>
+                            <ellipse id="Oval" transform="translate(16.130435, 48.062590) rotate(-13.000000) translate(-16.130435, -48.062590) " cx="16.1304348" cy="48.0625899" rx="12.0980219" ry="17.2878559"></ellipse>
+                            <ellipse id="Oval" transform="translate(86.788124, 54.026191) rotate(30.000000) translate(-86.788124, -54.026191) " cx="86.7881243" cy="54.0261913" rx="12.0987935" ry="17.2867539"></ellipse>
+                            <ellipse id="Oval" transform="translate(39.573871, 20.457627) rotate(-5.000000) translate(-39.573871, -20.457627) " cx="39.5738706" cy="20.4576271" rx="12.0978555" ry="19.3050379"></ellipse>
+                            <ellipse id="Oval" transform="translate(69.584856, 24.560862) rotate(18.000000) translate(-69.584856, -24.560862) " cx="69.5848558" cy="24.5608624" rx="12.0981955" ry="19.3044954"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="137px" height="140px" viewBox="0 0 137 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Perfect Pups Paw</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-226.000000, -50.000000)" fill="#000000">
+            <g id="Paw" transform="translate(297.000000, 120.500000) rotate(270.000000) translate(-297.000000, -120.500000) translate(207.500000, 28.500000)">
+                <g id="New-Paw" transform="translate(89.500000, 92.000000) rotate(75.000000) translate(-89.500000, -92.000000) translate(14.206349, 19.815385)">
+                    <path d="M60.1320017,132.072192 C66.3705366,132.072192 101.435665,155.649181 108.102476,135.660911 C113.929209,119.680506 91.3018357,72.9317172 71.1769765,72.9317172 C51.0521173,72.9317172 23.7956247,103.89432 23.7956247,119.680506 C28.0433579,140.842355 49.2396974,132.072192 60.1320017,132.072192 Z" id="Oval"></path>
+                    <ellipse id="Oval" transform="translate(22.915459, 68.027050) rotate(-13.000000) translate(-22.915459, -68.027050) " cx="22.9154589" cy="68.0270504" rx="17.183667" ry="24.4735603"></ellipse>
+                    <ellipse id="Oval" transform="translate(123.294240, 76.467840) rotate(30.000000) translate(-123.294240, -76.467840) " cx="123.29424" cy="76.46784" rx="17.1721222" ry="24.4901034"></ellipse>
+                    <ellipse id="Oval" transform="translate(56.220023, 28.955411) rotate(-5.000000) translate(-56.220023, -28.955411) " cx="56.2200226" cy="28.9554107" rx="17.1861552" ry="27.3248237"></ellipse>
+                    <ellipse id="Oval" transform="translate(98.854676, 34.763067) rotate(18.000000) translate(-98.854676, -34.763067) " cx="98.8546761" cy="34.7630668" rx="17.1810738" ry="27.3329669"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
