@@ -1,12 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
-$color-blue: #0094FF;
-
-.svg-container.logo {
+@import "scss/colors";
+@import "scss/inline-svgs";
+.svg-container.header {
   svg {
     width: 100%;
     height: 100%;
     path, ellipse {
-      fill: $color-blue;
+      fill: $color-accent;
     }
+  }
+}
+
+.pups-standard-width-container {
+  $max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .pups-standard-width-inner-container {
+    max-width: 1400px;
   }
 }

@@ -10,11 +10,17 @@ import {CollapseModule} from "ngx-bootstrap/collapse";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {InlineSVGModule} from "ng-inline-svg";
 import {HttpClientModule} from "@angular/common/http";
+import { MainComponent } from './components/main/main.component';
+import { InfoBarComponent } from './components/info-bar/info-bar.component';
+import { MastheadComponent } from './components/masthead/masthead.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HeaderComponent
+        HeaderComponent,
+        MainComponent,
+        InfoBarComponent,
+        MastheadComponent
     ],
     imports: [
         BrowserModule,
