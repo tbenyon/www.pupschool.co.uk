@@ -11,7 +11,7 @@
 
 .svg-container.mail.relative-size {
   svg {
-    width: 80%;
+    transform: scale(0.8); //Find a better way
   }
 }
 
