@@ -1,9 +1,18 @@
+@import "src/scss/colors";
+@import "src/scss/dimensions";
+
 .svg-container.logo {
   width: 30px;
   display: inline-block;
   margin-right: 10px;
 }
 
+nav {
+  background-color: $color-accent2;
+  a {
+    color: $color-secondary;
+  }
+}
 .nav-item {
   display: none;
 }

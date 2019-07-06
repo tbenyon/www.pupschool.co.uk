@@ -3,15 +3,7 @@
 @import "scss/dimensions";
 @import "scss/inline-svgs";
 
-.svg-container.header {
-  svg {
-    width: 100%;
-    height: 100%;
-    path, ellipse {
-      fill: $color-accent;
-    }
-  }
-}
+
 
 .pups-standard-width-container {
   $max-width: 1400px;
@@ -20,5 +12,14 @@
   justify-content: center;
   .pups-standard-width-inner-container {
     max-width: 1400px;
+    width: 100%;
+    &.padded {
+      padding-left: $padding-main;
+      padding-right: $padding-main;
+    }
   }
+}
+
+body {
+  background-color: $color-accent-faded;
 }
