@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="44px" viewBox="0 0 56 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-701.000000, -482.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Contact-Banner" transform="translate(120.000000, 459.000000)">
+                <path d="M631.4,23 L586.6,23 C583.52,23 581.028,25.475 581.028,28.5 L581,61.5 C581,64.525 583.52,67 586.6,67 L631.4,67 C634.48,67 637,64.525 637,61.5 L637,28.5 C637,25.475 634.48,23 631.4,23 Z M632,34.4285714 L609.5,48 L587,34.4285714 L587,29 L609.5,42.5714286 L632,29 L632,34.4285714 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

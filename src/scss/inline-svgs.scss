@@ -1,9 +1,16 @@
+@import "src/scss/dimensions";
 .svg-container.masthead-h1 {
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: $padding-main;
   svg {
     width: auto;
     height: 80%;
+  }
+}
+
+.svg-container.mail.relative-size {
+  svg {
+    width: 80%;
   }
 }
