@@ -14,6 +14,7 @@ import { MainComponent } from './components/main/main.component';
 import { InfoBarComponent } from './components/info-bar/info-bar.component';
 import { MastheadComponent } from './components/masthead/masthead.component';
 import { KeyPointsComponent } from './components/key-points/key-points.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { KeyPointsComponent } from './components/key-points/key-points.component
         MainComponent,
         InfoBarComponent,
         MastheadComponent,
-        KeyPointsComponent
+        KeyPointsComponent,
+        TestimonialsComponent
     ],
     imports: [
         BrowserModule,
