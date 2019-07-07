@@ -1,0 +1,94 @@
+@import "src/scss/colors";
+@import "src/scss/dimensions";
+
+.sections-container {
+  padding: 0 $padding-main;
+  display: flex;
+  flex-wrap: wrap;
+
+  .section {
+    width: 50%;
+    display: inline-block;
+
+    &.left {
+      .bullets-container {
+        padding: 20px 20px 20px 0;
+        .bullet-item {
+          display: flex;
+          &:not(:last-child) {
+            padding-bottom: 15px;
+          }
+          .svg-container.bullet-paw {
+            padding-right: 10px;
+            padding-top: 6px;
+          }
+
+          .text {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+
+    &.right {
+      .image-container {
+        height: 100%;
+        img {
+          vertical-align: inherit;
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  $bullets-width: 60%;
+  .sections-container {
+    .section {
+      &.left {
+        width: $bullets-width;
+      }
+
+      &.right {
+        width: 100% - $bullets-width;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sections-container {
+    .section {
+      &.left {
+        .bullets-container {
+          .bullet-item {
+            .text {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  $bullets-width: 60%;
+  .sections-container {
+    .section {
+      &.left, &.right {
+        width: 100%;
+        .bullets-container {
+          .bullet-item {
+            &:not(:last-child) {
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

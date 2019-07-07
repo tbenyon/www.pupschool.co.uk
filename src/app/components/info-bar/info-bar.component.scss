@@ -6,9 +6,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
   .side {
     padding: 5px $padding-main;
   }
+
   .icon-text {
     display: flex;
     color: $color-secondary;

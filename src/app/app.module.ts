@@ -13,6 +13,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { MainComponent } from './components/main/main.component';
 import { InfoBarComponent } from './components/info-bar/info-bar.component';
 import { MastheadComponent } from './components/masthead/masthead.component';
+import { KeyPointsComponent } from './components/key-points/key-points.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { MastheadComponent } from './components/masthead/masthead.component';
         HeaderComponent,
         MainComponent,
         InfoBarComponent,
-        MastheadComponent
+        MastheadComponent,
+        KeyPointsComponent
     ],
     imports: [
         BrowserModule,

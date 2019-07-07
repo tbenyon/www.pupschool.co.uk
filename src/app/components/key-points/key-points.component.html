@@ -1,0 +1,18 @@
+<div class="key-points-outer-container">
+  <div class="sections-container">
+    <div class="section left">
+      <div class="bullets-container">
+        <div *ngFor="let bullet of bullets" class="bullet-item">
+          <i class="svg-container bullet-paw" [inlineSVG]="'/assets/images/brand/paw.svg'"></i>
+          <span class="text">{{ bullet }}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section right">
+      <div class="image-container">
+        <img src="/assets/images/photos/dogTent.jpg">
+      </div>
+    </div>
+  </div>
+</div>
