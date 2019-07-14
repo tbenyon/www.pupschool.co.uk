@@ -1,25 +1,33 @@
 <section class="offerings">
-  <h3 class="offerings-title">What we offer:</h3>
+  <div class="svg-container sway" [inlineSVG]="'/assets/images/icons/sway.svg'"></div>
+
   <div class="offerings-container">
-    <div *ngFor="let offeringsDatum of offeringsData | keyvalue" class="offering one-to-one {{offeringsDatum.key}}">
-      <div class="bullets-container">
-        <div *ngFor="let bullet of offeringsDatum.value.bullets" class="bullet-item">
-          <i class="svg-container bullet-paw" [inlineSVG]="'/assets/images/brand/paw.svg'"></i>
-          <span class="text">{{ bullet }}</span>
+    <h3 class="offerings-title">What we offer:</h3>
+    <div class="offering-parts-container">
+      <div *ngFor="let offeringsDatum of offeringsData | keyvalue" class="offering one-to-one {{offeringsDatum.key}}">
+        <div class="top">
+          <h4 class="offering-title">{{offeringsDatum.value.title}}</h4>
+          <div class="bullets-container">
+            <div *ngFor="let bullet of offeringsDatum.value.bullets" class="bullet-item">
+              <i class="svg-container bullet-paw" [inlineSVG]="'/assets/images/brand/paw.svg'"></i>
+              <span class="text">{{ bullet }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="hr-container"><hr></div>
+
+          <div class="price-section">
+            <div class="price-text">
+              {{offeringsDatum.value.priceText}}
+            </div>
+            <div class="price">
+              {{offeringsDatum.value.price}}
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="hr-container"><hr></div>
-
-      <div class="price-section">
-        <div class="price-text">
-          {{offeringsDatum.value.priceText}}
-        </div>
-        <div class="price">
-          {{offeringsDatum.value.price}}
-        </div>
-      </div>
-
     </div>
   </div>
 </section>

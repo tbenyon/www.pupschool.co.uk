@@ -1,20 +1,85 @@
 section.offerings {
-  $padding-sections: 8px;
-  .offerings-title {
-
+  $padding-sections: $padding-main / 2;
+  position: relative;
+  overflow: hidden;
+  background-color: $color-secondary;
+  .svg-container.sway {
+    margin: 0 -2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 102%;
+      height: auto;
+    }
   }
 
-  .offerings-container {
-    padding: $padding-sections;
-    display: flex;
-    justify-content: center;
-    .offering {
-      margin: $padding-sections;
-      padding: 20px;
-      width: 50%;
-      border-radius: 20px;
-      border: 3px solid $color-accent2;
 
+  .offerings-container {
+    position: relative;
+    .offerings-title {
+      padding: $padding-main $padding-main 0 $padding-main;
+      color: $color-secondary;
+      font-size: 50px;
+    }
+
+    .offering-parts-container {
+      padding: $padding-sections;
+      display: flex;
+      justify-content: center;
+
+      .offering {
+        margin: $padding-sections;
+        padding: 20px;
+        width: 50%;
+        border-radius: 20px;
+        border: 3px solid $color-accent2;
+        background-color: $color-secondary;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .offering-title {
+          font-size: 35px;
+          margin-bottom: 20px;
+        }
+
+        .bullets-container {
+          padding: 0;
+          height: auto;
+          .bullet-item {
+            .svg-container.bullet-paw {
+              flex-shrink: 0;
+              width: 50px;
+              padding-top: 0;
+              svg {
+                width: 100%;
+                height: auto;
+                g, oval {
+                  fill: $color-accent;
+                }
+              }
+            }
+          }
+        }
+
+        .hr-container {
+          hr {
+            height: 3px;
+            background-color: $color-accent2;
+            margin: 40px 30px;
+          }
+        }
+
+        .price-section {
+          text-align: center;
+          font-size: 35px;
+        }
+      }
     }
   }
 }
