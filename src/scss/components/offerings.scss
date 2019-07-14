@@ -1,4 +1,8 @@
 section.offerings {
+  $tablet-size: 880px;
+  $phablet-size: 680px;
+  $mobile-size: 470px;
+
   $padding-sections: $padding-main / 2;
   position: relative;
   overflow: hidden;
@@ -9,12 +13,26 @@ section.offerings {
     top: 0;
     left: 0;
     width: 100%;
+
     svg {
       position: absolute;
       top: 0;
       left: 0;
       width: 102%;
       height: auto;
+    }
+
+    @media screen and (max-width: $tablet-size) {
+      height: 80%;
+      svg {
+        height: 100%;
+        position: initial;
+        width: auto;
+      }
+    }
+
+    @media screen and (max-width: $phablet-size) {
+      height: 40%;
     }
   }
 
@@ -43,6 +61,15 @@ section.offerings {
         flex-direction: column;
         justify-content: space-between;
 
+        @media screen and (max-width: $phablet-size) {
+          width: 100%;
+          padding: 50px;
+        }
+
+        @media screen and (max-width: $mobile-size) {
+          padding: 20px;
+        }
+
         .offering-title {
           font-size: 35px;
           margin-bottom: 20px;
@@ -64,6 +91,16 @@ section.offerings {
                 }
               }
             }
+
+            @media screen and (max-width: $tablet-size) {
+              .text {
+                font-size: 20px;
+              }
+
+              .svg-container.bullet-paw {
+                width: 40px;
+              }
+            }
           }
         }
 
@@ -78,6 +115,36 @@ section.offerings {
         .price-section {
           text-align: center;
           font-size: 35px;
+
+        }
+
+        @media screen and (max-width: $tablet-size) {
+          .hr-container {
+            hr {
+              margin: 20px 30px;
+            }
+          }
+
+          .price-section {
+            font-size: 25px;
+          }
+        }
+      }
+
+      @media screen and (max-width: $phablet-size) {
+        flex-wrap: wrap;
+        .offering {
+          width: 100%;
+          .offering-title {
+            text-align: center;
+          }
+
+          .hr-container {
+            hr {
+              margin-left: 0;
+              margin-right: 0;
+            }
+          }
         }
       }
     }
