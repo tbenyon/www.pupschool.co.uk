@@ -3,7 +3,7 @@ section.testimonials-section {
   $mobile-screen-size: 500px;
   $corner-quote-container-size: 150px;
   $corner-quote-container-size-small: 100px;
-  $corner-quote-container-size-mobile: 50px;
+  $corner-quote-container-size-mobile: 60px;
   $section-side-padding: $padding-main * 2;
   $background-color: $color-secondary;
 
@@ -24,8 +24,8 @@ section.testimonials-section {
       left: 0;
 
       @media screen and (max-width: $mobile-screen-size) {
-        top: $corner-quote-container-size-mobile / 2;
-        left: $corner-quote-container-size-mobile / 2;
+        top: $corner-quote-container-size-mobile / 3;
+        left: $corner-quote-container-size-mobile / 3;
       }
     }
 
@@ -35,8 +35,8 @@ section.testimonials-section {
       transform: rotate(180deg);
 
       @media screen and (max-width: $mobile-screen-size) {
-        bottom: $corner-quote-container-size-mobile / 2;
-        right: $corner-quote-container-size-mobile / 2;
+        bottom: $corner-quote-container-size-mobile / 3;
+        right: $corner-quote-container-size-mobile / 3;
       }
     }
 
@@ -58,6 +58,10 @@ section.testimonials-section {
     @media screen and (max-width: $small-screen-size) {
       width: $corner-quote-container-size-small;
       height: $corner-quote-container-size-small;
+      .svg-container {
+        width: 70%;
+        height: 70%;
+      }
     }
 
     @media screen and (max-width: $mobile-screen-size) {
@@ -94,7 +98,6 @@ section.testimonials-section {
         text-align: right;
         color: $color-accent;
       }
-
     }
 
     @media screen and (max-width: 850px) {

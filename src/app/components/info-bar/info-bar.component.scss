@@ -9,6 +9,9 @@
 
   .side {
     padding: 5px $padding-main;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .icon-text {
@@ -17,6 +20,8 @@
       font-size: 20px;
     }
     .svg-container.info-bar {
+      width: 50px;
+      justify-content: flex-end;
       &.mail {
         display: flex;
         justify-content: flex-end;

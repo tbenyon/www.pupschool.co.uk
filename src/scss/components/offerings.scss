@@ -13,6 +13,7 @@ section.offerings {
     top: 0;
     left: 0;
     width: 100%;
+    align-items: flex-start;
 
     svg {
       position: absolute;
@@ -26,7 +27,6 @@ section.offerings {
       height: 80%;
       svg {
         height: 100%;
-        position: initial;
         width: auto;
       }
     }

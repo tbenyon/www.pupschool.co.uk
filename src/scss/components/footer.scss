@@ -1,25 +1,55 @@
 footer {
+  $stacked-view-width: 1000px;
+  $smaller-font-width: 700px;
+  $smallest-font-width: 500px;
   background-color: $color-accent2;
   .footer-inner-container {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
+    @media screen and (max-width: $stacked-view-width) {
+      flex-direction: column;
+    }
     .footer-section {
       &.contact-details {
         padding-left: $padding-main;
+        .icon-text {
+          @media screen and (max-width: $smaller-font-width) {
+            font-size: 20px;
+          }
+
+          @media screen and (max-width: $smallest-font-width) {
+            font-size: 16px;
+          }
+          .svg-container {
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
       }
 
       &.logos {
         padding-right: $padding-main/2;
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         .image-container {
           padding: $padding-main / 2;
           img {
             max-height: 90px;
             width: auto;
           }
+        }
+      }
+
+      @media screen and (max-width: $stacked-view-width) {
+        padding: $padding-main / 2 $padding-main;
+        justify-content: center;
+        .icon-text {
+          justify-content: center;
         }
       }
     }

@@ -1,0 +1,12 @@
+svg {
+  width: 100%;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.phone svg {
+    width: 55%;
+  }
+}
