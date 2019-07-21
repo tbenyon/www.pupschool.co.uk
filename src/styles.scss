@@ -5,21 +5,11 @@
 
 @import "scss/components/testimonials";
 @import "scss/components/offerings";
+@import "scss/components/footer";
 
-.pups-standard-width-container {
-  $max-width: 1400px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  .pups-standard-width-inner-container {
-    max-width: 1400px;
-    width: 100%;
-    &.padded {
-      padding-left: $padding-main;
-      padding-right: $padding-main;
-    }
-  }
-}
+@import "scss/sub-components/item-text";
+@import "scss/sub-components/standard-width-container";
+@import "scss/sub-components/bullets-container";
 
 body {
   background-color: $color-accent-faded;
@@ -28,26 +18,4 @@ body {
 img {
   width: 100%;
   height: auto;
-}
-
-.bullets-container {
-  padding: 20px 20px 20px 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  .bullet-item {
-    display: flex;
-    &:not(:last-child) {
-      padding-bottom: 15px;
-    }
-    .svg-container.bullet-paw {
-      padding-right: 10px;
-      padding-top: 6px;
-    }
-
-    .text {
-      font-size: 28px;
-    }
-  }
 }

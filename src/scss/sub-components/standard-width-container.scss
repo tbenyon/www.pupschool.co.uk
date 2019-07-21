@@ -1,0 +1,14 @@
+.pups-standard-width-container {
+  $max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .pups-standard-width-inner-container {
+    max-width: 1400px;
+    width: 100%;
+    &.padded {
+      padding-left: $padding-main;
+      padding-right: $padding-main;
+    }
+  }
+}

@@ -16,6 +16,7 @@ import { MastheadComponent } from './components/masthead/masthead.component';
 import { KeyPointsComponent } from './components/key-points/key-points.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { OfferingsComponent } from './components/offerings/offerings.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { OfferingsComponent } from './components/offerings/offerings.component';
         MastheadComponent,
         KeyPointsComponent,
         TestimonialsComponent,
-        OfferingsComponent
+        OfferingsComponent,
+        FooterComponent,
     ],
     imports: [
         BrowserModule,

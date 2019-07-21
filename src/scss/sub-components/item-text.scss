@@ -1,0 +1,22 @@
+.icon-text {
+  display: flex;
+  color: $color-secondary;
+  align-items: center;
+  font-size: 30px;
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+  }
+
+  a {
+    color: $color-secondary;
+  }
+
+
+  .svg-container.info-bar {
+    padding-right: 10px;
+    &.mail {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

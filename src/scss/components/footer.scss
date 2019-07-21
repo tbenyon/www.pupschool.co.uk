@@ -1,0 +1,27 @@
+footer {
+  background-color: $color-accent2;
+  .footer-inner-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .footer-section {
+      &.contact-details {
+        padding-left: $padding-main;
+      }
+
+      &.logos {
+        padding-right: $padding-main/2;
+        display: flex;
+        align-items: center;
+        .image-container {
+          padding: $padding-main / 2;
+          img {
+            max-height: 90px;
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+}
